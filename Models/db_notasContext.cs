@@ -10,7 +10,11 @@ namespace L01P022019AC603.Models
 
         }
 
-        public DbSet<>
+        public DbSet<materias> materias { get; set; }
+        public DbSet<facultades> facultades { get; set;}
+        public DbSet<departamentos> departamentos { get; set;}
+        public DbSet<alumnos> alumnos { get; set;}
+
 
     }
 }
